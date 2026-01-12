@@ -4,7 +4,7 @@ import google.generativeai as genai
 class AIHandler:
     def __init__(self, api_key=None):
         # User's Google AI Studio Key (ending in JN00 based on previous context/screenshot)
-        self.api_key = api_key or "AIzaSyCAPhDWXrReU3v1Q00Zuh0IIBpwPsvD2oo"
+        self.api_key = api_key or ""
         
         if self.api_key:
             genai.configure(api_key=self.api_key)
