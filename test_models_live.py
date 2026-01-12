@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import time
 
-api_key = "AIzaSyCAPhDWXrReU3v1Q00Zuh0IIBpwPsvD2oo"
+api_key = ""
 genai.configure(api_key=api_key)
 
 candidates = [
